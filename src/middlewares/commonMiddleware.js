@@ -22,6 +22,7 @@ const collegeValidator = async function (req, res, next) {
 }
 
 const internValidator = async function (req, res, next) {
+    
     let data = req.body
     if (!isValidBody(data)) return res.status(400).send({ status: false, message: "Request body can't be empty" })
 

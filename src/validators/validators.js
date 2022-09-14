@@ -28,8 +28,8 @@ const isValidEmail = function (mail) {
     return false
   }
 
-  const isValidId = function (data) {
-    return mongoose.Types.ObjectId.isValid(data);
+  const isValidId = function (id) {
+    return mongoose.Types.ObjectId.isValid(id);
   };
   
 
